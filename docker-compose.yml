@@ -3,8 +3,8 @@ version: '3.8'
 services:
   start-page:
     build: .
-    ports:
-      - "2561:80"
+    # ports:
+    #   - "2561:80"
     restart: always
 networks:
   default:
